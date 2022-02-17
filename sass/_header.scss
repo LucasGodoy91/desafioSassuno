@@ -1,0 +1,44 @@
+header{
+    .logo {
+        animation-name: escalar;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        transform: scale();
+    }
+    
+    @keyframes escalar { 
+        from {
+            transform: scale(1.0);
+        }
+        
+        to {
+            transform: scale(1.4);
+        }
+    
+    }
+
+}
+
+nav{ 
+    ul{
+        li{
+            .subMenu{
+            text-align:left;
+            color: black;
+            display: none;
+            font-size: 20px;
+                             }
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            margin-left: 40px;
+        }
+    }
+     
+}
+
+* {
+    font-family:  'Kanit', sans-serif;
+}

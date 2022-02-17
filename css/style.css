@@ -1,0 +1,57 @@
+header .logo {
+  animation-name: escalar;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  transform: scale(); }
+
+@keyframes escalar {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.4); } }
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px; }
+  nav ul li .subMenu {
+    text-align: left;
+    color: black;
+    display: none;
+    font-size: 20px; }
+
+* {
+  font-family: 'Kanit', sans-serif; }
+
+.container div .intro {
+  font-size: 25px;
+  padding-top: 40px; }
+
+.container div section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container div section .shipping {
+    width: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px; }
+  .container div section .envio {
+    padding-bottom: 70px; }
+
+footer {
+  padding-top: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer .logoIg {
+    width: 50px; }
+  footer .containerFooter {
+    text-align: center; }
+    footer .containerFooter .linkIg {
+      text-decoration: none;
+      text-align: center;
+      color: white; }
